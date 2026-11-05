@@ -1,0 +1,8 @@
+build_car:
+  image: alpine
+  script: 
+    - echo "Building a car"
+    - mkdir build
+    - cd build 
+    - touch car.txt
+    - echo "chasis" > car.txt
